@@ -1,0 +1,375 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.hero-img-container{
+    background-image: url(../assets/bg-image/original.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tab-container{
+    height: 10vh;
+    background-image: linear-gradient(black, transparent);
+    /* background-color: rgba(0, 0, 0, 0.541); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container{
+    background-image: url(../assets/logos/hulu-logo.svg); 
+    background-size: 65%;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-left: 50px;
+    height: 5vh;
+    width: 7vw;
+}
+
+.login-container:hover{
+    background-color: rgb(100, 100, 100);
+    color: white;
+    cursor: pointer;
+}
+
+.login-container{
+    margin-right: 50px;
+    height: 35px;
+    width: 75px;
+    border: none;
+    font-weight: bold;
+    font-size: 1/2fr;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(151, 151, 151);
+    background-color: transparent;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.hero-text-container{
+    display: flex;
+    flex-direction: column;
+    padding: 3vh;
+}
+
+.dbdb-container{
+    margin: 2vh;
+}
+
+.dbdb{
+    color: rgb(21, 231, 131);
+    font-size: 0.8em;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hulu-disney{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.get-hulu-container{
+    padding: 1vh;
+}
+
+.get-hulu{
+    font: 1.5em sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.get-them{
+    background-color: rgb(21, 231, 131);
+    border: none;
+    border-radius: 3px;
+    height: 45px;
+    width: 48vw;
+    font-weight: bold;
+    align-self: center;
+    transition: 0.5s;
+}
+
+.get-them:hover{
+    background-color: rgba(21, 231, 130, 0.658);
+    cursor: pointer;
+}
+
+.terms{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-self: center;
+    font-size: small;
+    margin: 10px;
+}
+
+.signup{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-self: center;
+    font-size: large;
+    margin: 10px;
+}
+
+.disney-bundle-container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.63);
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.original-trio{
+    width: 20vw;
+    height: 12vh;
+    margin: 35px;
+}
+
+.dbtb-container{
+    text-align: left;
+    margin-top: 5vh;
+    width: 40vw;
+}
+
+.dbtb{
+    color: rgb(21, 231, 131);
+    font-size: 0.8em;
+    text-align: left;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.get-hulu1{
+    font: 1.5em sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.get-btn-container{
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.get-btn{
+    width: 12vw;
+    height: 8vh;
+    border: 2px solid rgb(233, 233, 233);
+    background-color: transparent;
+    color: rgb(233, 233, 233);
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.get-btn:hover{
+    background-color: rgb(233, 233, 233);
+    color: rgb(11, 12, 15);
+}
+
+.terms1{
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-self: center;
+    font-size: 0.7em;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.tv-container{
+    margin: 0;
+    position: relative;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(11, 12, 15);
+}
+
+.iiap{
+    color: rgb(21, 231, 131);
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 10vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.all-tv{
+    font: 2.8em sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.watch-full-container{
+    width: 50vw;
+    align-self: center;
+}
+
+.watch-full{
+    color: white;
+    font-size: 0.9em;
+    margin: 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cards-container{
+    margin: 18px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card1{
+    margin: 10px;
+    transition: 0.2s;
+}
+
+.card1:hover{
+    box-shadow: 5px 10px 15px black;
+    transform: translateZ(10px);
+    cursor: pointer;
+}
+
+.card1-img{
+    width: 22vw;
+    opacity: 0.5;
+    background-color: black;
+}
+
+.card2{
+    margin: 10px;
+    transition: 0.2s;
+}
+
+.card2:hover{
+    box-shadow: 5px 10px 15px black;
+    transform: translateZ(10px);
+    cursor: pointer;
+}
+
+.card2-img{
+    width: 22vw;
+    opacity: 0.5;
+    background-color: black;
+}
+
+.overlay-text{
+    position: absolute;
+    transform: translateY(-450px) translateX(30px);
+}
+
+.o-text1{
+    color: white;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.o-text2{
+    color: white;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card3{
+    margin: 10px;
+    transition: 0.2s;
+}
+
+.card3:hover{
+    box-shadow: 5px 10px 15px black;
+    transform: translateZ(10px);
+    cursor: pointer;
+}
+
+.card3-img{
+    width: 22vw;
+    opacity: 0.5;
+    background-color: black;
+}
+
+.card4{
+    margin: 10px;
+    transition: 0.2s;
+}
+
+.card4:hover{
+    box-shadow: 5px 10px 15px black;
+    transform: translateZ(10px);
+    cursor: pointer;
+}
+
+.card4-img{
+    width: 22vw;
+    opacity: 0.5;
+    background-color: black;
+}
+
+.hulu1{
+    color: rgb(21, 231, 131);
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 25vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.watch-full1{
+    color: white;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.all-tv1{
+    font-size: 0.6em;
+    color: grey;
+    text-align: center;
+}
+
+.all-tv2{
+    font-size: 1em;
+    color: rgb(230, 230, 230);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.chevron-container{
+    align-self: center;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    transform: translateY(0px);
+
+    animation-name: arrnime;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.sports-live{
+    padding: 0;
+    background-color: red;
+    background-image: url(../assets/bg-image/original\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+
+@keyframes arrnime {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(15px);
+    }
+}
